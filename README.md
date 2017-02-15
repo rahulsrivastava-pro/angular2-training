@@ -1,1 +1,1 @@
-# angular2-training
+# Reference Material for the Angular 2 Training conducted by me.

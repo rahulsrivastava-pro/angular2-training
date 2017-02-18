@@ -1,0 +1,205 @@
+link: https://app.pluralsight.com/player?course=angular-2-forms&author=mark-zamoyta&name=angular-2-forms-m1&clip=0&mode=live
+
+
+Setup the start up project: 
+
+https://github.com/angular/angular2-seed
+
+
+Step 1.
+
+clone the github repository using following commands: 
+
+git clone https://github.com/angular/angular2-seed.git
+
+
+This will create a folder "angular2-seed"
+
+In order to rename it: 
+
+git clone https://github.com/angular/angular2-seed.git newproject
+
+----------------------------------------------------------------------------------
+
+
+Step 2: Browse the Folder structure
+----------------------------------------------------------------------------------
+
+Step 3: 
+
+Go To home.ts
+
+and create the form 
+
+
+----------------------------------------------------------------------------------
+
+
+Step 4
+
+http://getbootstrap.com/getting-started/
+
+copy link 
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+put it in: 
+
+index.html head section
+
+----------------------------------------------------------------------------------
+
+
+
+Step 5 
+
+Create Controls And buttons : 
+
+First Name
+Last Name
+Checkbox
+Radio button
+Select
+
+
+----------------------------------------------------------------------------------
+
+
+Step 6
+
+Data Binding
+
+Create a models folder to the root
+
+Add a file : employee.model.ts
+comment out the form keeping just first name
+
+
+
+
+----------------------------------------------------------------------------------
+
+Step 7: 
+
+Form Validation
+
+go through all validations
+
+comment out all the fields except first one;
+Add classes tag
+
+discuss ngModel classes
+discuss ngModel Properties
+
+
+Alert Classes: 
+
+Go to http://getbootstrap.com/components/
+
+Goto Alert section
+
+
+Take the alert classes: 
+
+<div class="alert alert-danger" role="alert">
+First Name is required.
+</div>
+
+validation css
+
+Go to http://getbootstrap.com/  -> css -> forms -> validation states
+
+
+
+http://getbootstrap.com/css/#forms
+
+conditionally add class : has-error to the form-group to show a control with errors
+------------------------
+
+HTML5 attributes for Validations: 
+
+goto site caniuse.com 
+check if html5 attribute is widely used or not; Example required, minlength, maxlength, pattern are supported by angular
+
+demonstrate use of minlength; showcase that its not widely used due to browser inconsistency
+
+use pattern attribute;
+
+------------------------
+
+Validating select control
+
+------------------------------
+
+Form Level Validation 
+
+------------------------------
+
+
+
+
+Step 8: Node Server 
+
+create new folder node_server 
+
+npm init 
+
+npm install --save formidable    
+
+create new file: server.js
+
+
+create service 
+create form events
+
+------------------------------
+
+Step 9 
+
+Third party controls: 
+
+Goto angular.io
+
+Goto ----> "Tools & Libraries"
+
+Go to -----> UI Components 
+
+ng2-bootstrap
+
+------------------------------
+
+Install ng2-bootstrap
+
+Go to the site: 
+
+github.com/valor-software/ng2-bootstrap
+
+
+go to -> valor-software.com/ng2-bootstrap
+
+
+npm install ng2-bootstrap --save 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
